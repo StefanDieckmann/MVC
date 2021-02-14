@@ -1,6 +1,10 @@
 ﻿using UnityEngine.UI;
 
-public interface ICharacterView
+namespace Character
 {
-    Button CharacterButton { get; }
+    public interface ICharacterView
+    {
+        Button CharacterButton { get; }
+        string CharacterButtonText { set; }
+    }
 }
